@@ -15,6 +15,7 @@ namespace numbers
         public Form1()
         {
             InitializeComponent();
+            richTextBox1.AppendText(d1.ToString() + "\n")
         }
     }
 }
